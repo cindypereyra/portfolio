@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Portfolio | Diseñadora Web</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/logo_cp_r.svg" type="image/x-icon">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Iconos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body class="dark-mode-transition">
+    <!-- Header -->
+    <header class="shadow-sm">
+        <div class="container px-4 py-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Logo -->
+                <a href="#" class="logo-navbar">
+                    <img src="img/logo_cp_r.svg" alt="Cindy Pereyra Logo">
+                </a>
+                <!-- Barra de menú para Desktop -->
+                <nav class="d-none d-md-flex gap-4">
+                    <a class="text-decoration-none text-dark hover-menu" href="#about">Sobre mí</a>
+                    <a class="text-decoration-none text-dark hover-menu" href="#proyectos">Proyectos</a>
+                    <a class="text-decoration-none text-dark hover-menu" href="#herramientas">Herramientas</a>
+                    <a class="text-decoration-none text-dark hover-menu" href="#contact">Contacto</a>
+                </nav>
+                <div class="d-flex align-items-center gap-3">
+                    <!-- Botón de Dark Mode -->
+                    <button class="btn p-2 rounded-circle hover-bg" id="botonDarkMode">
+                        <i class="fas fa-moon text-dark" id="iconoDarkMode"></i>
+                    </button>
+                    <!-- Botón de Menú Mobile -->
+                    <button class="d-md-none btn p-2 rounded-circle hover-bg " id="mobile-menu-button">
+                        <i class="fas fa-bars text-dark"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Menú Mobile -->
+            <div class="mt-3 pb-3 d-none" id="mobile-menu">
+                <a class="d-block py-2 text-decoration-none text-dark hover-menu" href="#about">Sobre mí</a>
+                <a class="d-block py-2 text-decoration-none text-dark hover-menu" href="#proyectos">Proyectos</a>
+                <a class="d-block py-2 text-decoration-none text-dark hover-menu" href="#herramientas">Herramientas</a>
+                <a class="d-block py-2 text-decoration-none text-dark hover-menu" href="#contact">Contacto</a>
+            </div>
+        </div>
+    </header>
+    <!-- Hero -->
+    <section class="hero-alto" id="home">
+        <div class="container px-4">
+            <div class="row align-items-center">
+                <!-- Columna izquierda: texto -->
+                <div class="col-md-5 text-center text-md-start mb-5 mb-md-0">
+                    <p class="intro fw-semibold mb-1">Hola, soy</p>
+                    <h1 class="titulo-hero mb-3 text-gradient">Cindy Pereyra</h1>
+                    <h2 class="subtitulo-hero fw-semibold mb-4">Diseñadora Web</h2>
+                    <ul
+                        class="social-icons list-unstyled d-flex gap-4 mb-4 justify-content-center justify-content-md-start">
+                        <li>
+                            <a aria-label="LinkedIn" class="social-link"
+                                href="https://www.linkedin.com/in/cindypereyra/" target="_blank">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a aria-label="Behance" class="social-link" href="https://www.behance.net/cindypereyra"
+                                target="_blank">
+                                <i class="bi bi-behance"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a aria-label="GitHub" class="social-link" href="https://github.com/cindypereyra"
+                                target="_blank">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-column flex-md-row gap-3 justify-content-center justify-content-md-start">
+                        <a class="btn btn-primary-gradient px-4 py-2 rounded" href="#contact">Contáctame</a>
+                        <a class="btn btn-outline-gradient px-4 py-2 rounded" href="#proyectos">Mis Proyectos</a>
+                    </div>
+                </div>
+                <!-- Columna derecha: imagen -->
+                <div class="col-md-7 d-flex align-items-center justify-content-center">
+                    <img src="img/hero_cin.png" alt="Cindy Pereyra" class="hero-img">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Section Sobre Mi -->
+    <section class="section bg-light" id="about">
+        <div class="container px-4">
+            <h2 class="text-center fs-1 fw-bold mb-5">Sobre <span class="text-primary-custom">Mí</span></h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 mb-5 mb-md-0 d-flex justify-content-center">
+                    <div class="about-img-container">
+                        <img alt="Cindy" class="w-100 h-100 object-fit-cover" src="img/about_me_Cin.png" />
+                    </div>
+
+
+                </div>
+                <div class="col-md-8 ps-md-5">
+                    <p class="text-muted mb-4">
+                        Entiendo el diseño como una herramienta para comunicar con claridad, evitando el exceso y
+                        priorizando la funcionalidad. Diseñar no es solo hacer que algo se vea lindo,
+                        sino resolver problemas visuales y funcionales mediante soluciones simples, accesibles y
+                        directas.
+                    </p>
+                    <p class="text-muted mb-4">
+                        Mi filosofía de trabajo es un <span class="text-primary-custom">Concepto Preciso</span>, una
+                        forma que busca eliminar
+                        el ruido visual y dar lugar a composiciones sobrias, minimalistas y coherentes,
+                        donde cada elemento tenga un propósito definido y aporte valor real a la experiencia
+                        del usuario.
+                        Mis diseños reflejan mi personalidad: la organización visual, la jerarquía de la
+                        información y el pensamiento centrado en el usuario. Creo que cada pantalla es una
+                        oportunidad para guiar, emocionar y conectar, siempre desde la sobriedad, la sencillez
+                        y el cuidado estético funcional.
+                    </p>
+                    <p class="text-muted mb-4">
+                        Este proyectos reúne una selección de mis proyectos académicos y personales.
+                    </p>
+
+
+                    <div class="row g-3">
+                        <div class="col-6 d-flex align-items-center">
+                            <i class="fas fa-graduation-cap text-primary-custom me-3"></i>
+                            <span>Diseño Web - ORT</span>
+                        </div>
+                        <div class="col-6 d-flex align-items-center">
+                            <i class="fas fa-briefcase text-primary-custom me-3"></i>
+                            <span>2+ Años de Experiencia</span>
+                        </div>
+                        <div class="col-6 d-flex align-items-center">
+                            <i class="fas fa-project-diagram text-primary-custom me-3"></i>
+                            <span>10+ Proyectos Completados</span>
+                        </div>
+                        <div class="col-6 d-flex align-items-center">
+                            <i class="fas fa-globe text-primary-custom me-3"></i>
+                            <span>UX/UI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section de Proyecto -->
+    <section class="section" id="proyectos">
+        <div class="container px-4">
+            <h2 class="text-center fs-1 fw-bold mb-3">Mis <span class="text-primary-custom">Proyectos</span></h2>
+            <p class="text-center text-muted mb-5 mx-auto">Algunos de mis proyectos recientes.
+                Cada diseño cuenta una historia única y resuelve necesidades específicas.</p>
+            <div class="row g-4">
+                <!-- Proyecto 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-proyecto bg-white rounded-3 overflow-hidden shadow h-100">
+                        <div class="overflow-hidden">
+                            <img alt="Proyecto APP Patas Felices" class="w-100 h-100 object-fit-cover"
+                                src="img/proyectos/proyecto_APP_1.png" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="fs-5 fw-semibold mb-2">APP Patas Felices</h3>
+                            <p class="text-muted mb-3">Una aplicación que conecta refugios con adoptantes.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-opacity-10">Figma</span>
+                                </div>
+                                <a class="btn btn-primary-gradient px-3 py-1 rounded"
+                                    href="/producto.html?id=patasfelices">Ver Proyecto →</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-proyecto bg-white rounded-3 overflow-hidden shadow h-100">
+                        <div class="overflow-hidden">
+                            <img alt="Proyecto App Finanzas" class="w-100 h-100 object-fit-cover"
+                                src="img/proyectos/proyecto_motos_1.png" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="fs-5 fw-semibold mb-2">CP Motos</h3>
+                            <p class="text-muted mb-3">Un lugar de encuentro para los amantes de las motos.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-opacity-10">Wordpress</span>
+                                </div>
+                                <a class="btn btn-primary-gradient px-3 py-1 rounded" href="/producto.html?id=motos">Ver
+                                    Proyecto →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-proyecto bg-white rounded-3 overflow-hidden shadow h-100">
+                        <div class="overflow-hidden">
+                            <img alt="Proyecto Web Corporativa" class="w-100 h-100 object-fit-cover"
+                                src="img/proyectos/iconos.png" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="fs-5 fw-semibold mb-2">Íconos</h3>
+                            <p class="text-muted mb-3">Diseño identidad visual y sitio web para empresa
+                                tecnológica. </p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-opacity-10">illustrator</span>
+                                    <span class="badge bg-opacity-10">Photoshop</span>
+                                </div>
+                                <a class="btn btn-primary-gradient px-3 py-1 rounded"
+                                    href="/producto.html?id=iconos">Ver Proyecto →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container px-4 mt-separador">
+            <div class="row g-4">
+                <!-- Proyecto 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-proyecto bg-white rounded-3 overflow-hidden shadow h-100">
+                        <div class="overflow-hidden">
+                            <img alt="Proyecto E-commerce" class="w-100 h-100 object-fit-cover"
+                                src="img/proyectos/proyecto_makeup_1.png" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="fs-5 fw-semibold mb-2">Tienda Online Maquillaje</h3>
+                            <p class="text-muted mb-3">Diseño completo de e-commerce con enfoque en experiencia de
+                                usuario y conversión.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-opacity-10">HTML</span>
+                                    <span class="badge bg-opacity-10">CSS</span>
+                                    <span class="badge bg-opacity-10">Js</span>
+                                </div>
+                                <a class="btn btn-primary-gradient px-3 py-1 rounded"
+                                    href="/producto.html?id=makeup">Ver Proyecto →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-proyecto bg-white rounded-3 overflow-hidden shadow h-100">
+                        <div class="overflow-hidden">
+                            <img alt="Proyecto App Finanzas" class="w-100 h-100 object-fit-cover"
+                                src="img/proyectos/proyecto_porotino_1.png" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="fs-5 fw-semibold mb-2">Web Veterinaria Porotino</h3>
+                            <p class="text-muted mb-3">Diseño de interfaz móvil para aplicación de gestión financiera
+                                de la empresa.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-opacity-10">Node JS</span>
+                                    <span class="badge bg-opacity-10">Mongo </span>
+                                </div>
+                                <a class="btn btn-primary-gradient px-3 py-1 rounded"
+                                    href="/producto.html?id=veterinaria">Ver Proyecto →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card-proyecto bg-white rounded-3 overflow-hidden shadow h-100">
+                        <div class="overflow-hidden">
+                            <img alt="Proyecto Web Corporativa" class="w-100 h-100 object-fit-cover"
+                                src="img/proyectos/Nipro_1.png" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="fs-5 fw-semibold mb-2">Farmanuario</h3>
+                            <p class="text-muted mb-3">Publicación en Farmanuario para Nipro Medical Corp.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-opacity-10">Photoshop</span>
+                                    <span class="badge bg-opacity-10">illustrator</span>
+                                </div>
+                                <a class="btn btn-primary-gradient px-3 py-1 rounded"
+                                    href="/producto.html?id=nipro">Ver Proyecto →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section de Herramientas -->
+    <section class="section bg-light" id="herramientas">
+        <h2 class="text-center fs-1 fw-bold mb-5">Mis <span class="text-primary-custom">Herramientas</span></h2>
+        <div class="wrapper">
+            <div class="item item1"><img src="img/herramientas/html.svg" alt="HTML5" class="logo-skill"></div>
+            <div class="item item2"><img src="img/herramientas/css.svg" alt="CSS3" class="logo-skill"></div>
+            <div class="item item3"><img src="img/herramientas/javascript.svg" alt="JavaScript" class="logo-skill">
+            </div>
+            <div class="item item4"><img src="img/herramientas/github.svg" alt="GitHub" class="logo-skill"></div>
+            <div class="item item5"><img src="img/herramientas/vsc.svg" alt="Visual Studio Code" class="logo-skill">
+            </div>
+            <div class="item item6"><img src="img/herramientas/netlify.svg" alt="Netlify" class="logo-skill"></div>
+            <div class="item item7"><img src="img/herramientas/mongo.svg" alt="Mongo DB" class="logo-skill"></div>
+            <div class="item item8"><img src="img/herramientas/figma.svg" alt="Figma" class="logo-skill"></div>
+            <div class="item item9"><img src="img/herramientas/photoshop.svg" alt="photoshop" class="logo-skill"></div>
+            <div class="item item10"><img src="img/herramientas/illustrator.svg" alt="illustrator" class="logo-skill">
+            </div>
+            <div class="item item11"><img src="img/herramientas/indesign.svg" alt="indesign" class="logo-skill"></div>
+            <div class="item item12"><img src="img/herramientas/wordpress.svg" alt="wordpress" class="logo-skill"></div>
+            <div class="item item13"><img src="img/herramientas/sass.svg" alt="sass" class="logo-skill"></div>
+            <div class="item item14"><img src="img/herramientas/slack-.svg" alt="slack" class="logo-skill"></div>
+            <div class="item item15"><img src="img/herramientas/render.svg" alt="render" class="logo-skill"></div>
+            <div class="item item16"><img src="img/herramientas/bootstrap.svg" alt="bootstrap" class="logo-skill"></div>
+            <div class="item item17"><img src="img/herramientas/trello.svg" alt="trello" class="logo-skill"></div>
+        </div>
+    </section>
+
+
+    <!-- Section de Contacto -->
+    <section class="section" id="contact">
+        <div class="container px-4">
+            <h2 class="text-center fs-1 fw-bold mb-3">Contácta<span class="text-primary-custom">me</span></h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-6">
+                    <form class="space-y-4">
+                        <div class="mb-3">
+                            <label class="form-label" for="name">Nombre</label>
+                            <input class="form-control" id="name" type="text" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="email">Email</label>
+                            <input class="form-control" id="email" type="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="subject">Asunto</label>
+                            <input class="form-control" id="subject" type="text" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="message">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="5"></textarea>
+                        </div>
+                        <button class="btn btn-primary-gradient w-100 py-2" type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container px-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0 d-none d-md-block">
+                    <!-- Logo -->
+                    <a href="#" class="d-flex align-items-center mb-2">
+                        <img src="img/logo_cp_r.svg" alt="Cindy Pereyra Logo" height="40">
+                    </a>
+                    <p class="mt-2 mb-0"><span> Concepto Preciso </span>, by Cindy Pereyra</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-md-end gap-4 d-none d-md-flex">
+                    <a class="text-decoration-none text-white hover-menu" href="#">Inicio</a>
+                    <a class="text-decoration-none text-white hover-menu" href="#about">Sobre mí</a>
+                    <a class="text-decoration-none text-white hover-menu" href="#proyectos">Proyectos</a>
+                    <a class="text-decoration-none text-white hover-menu" href="#herramientas">Herramientas</a>
+                    <a class="text-decoration-none text-white hover-menu" href="#contact">Contacto</a>
+                </div>
+                <div class="border-top border-secondary mt-4 pt-4 text-center">
+                    <p class="mb-0">© 2025 Cindy Pereyra - Diseñadora Web.</p>
+                </div>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

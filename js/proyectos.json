@@ -1,0 +1,84 @@
+[
+  {
+    "id": "patasfelices",
+    "titulo": "APP Patas Felices",
+    "subtitulo": "Es una plataforma mobile que tiene como objetivo principal ayudar a encontrar hogares para animales en situación de adopción, reunir a animales perdidos con sus dueños y fomentar la cultura de donaciones para apoyar a refugios y organizaciones de rescate de animales.",
+    "media": [
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_APP_1.png" },
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_APP_2.png" },
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_APP_3.png" }
+    ],
+    "descripcionDetallada": "<h3>Funcionalidades Principales</h3><p><strong>Adopción Responsable:</strong> Los usuarios pueden buscar animales disponibles para adopción, filtrando por tipo de animal.</p><p><strong>Sección de Donaciones:</strong> Patas Felices tiene una sección dedicada a promover donaciones a refugios y organizaciones de rescate de animales. Los usuarios podrán comunicarse para donar artículos específicos necesarios, dinero o dar su tiempo realizando alguna actividad para ayudarlos.</p><p><strong>Perfiles de Usuarios:</strong> Los usuarios podrán crear perfiles donde guardar sus animales favoritos, historial de donaciones y las mascotas que han adoptado.</p><h4>Valor agregado</h4><p>Fomentar la solidaridad y la cultura de donaciones para apoyar a refugios y organizaciones dedicadas al cuidado de animales. Crear una comunidad de amantes de los animales donde puedan compartir experiencias y apoyarse mutuamente en causas benéficas.</p>",
+    "linkPrototipo": "https://www.figma.com/proto/cL4INHUvEJqtNUj6sqdB67/APP---PATAS-FELICES?page-id=0%3A1&node-id=1-2&embed-host=share",
+    "iframePrototipo": "<iframe style='border: 1px solid rgba(0, 0, 0, 0.1);' width='800' height='450' src='https://embed.figma.com/proto/cL4INHUvEJqtNUj6sqdB67/APP---PATAS-FELICES?page-id=0%3A1&node-id=1-2&embed-host=share' allowfullscreen></iframe>"
+  },
+  {
+    "id": "motos",
+    "titulo": "CP Motos",
+    "subtitulo": "Sitio informativo dedicado a las motocicletas, pensado para quienes disfrutan de este mundo tanto desde el lado técnico como desde el placer de viajar. En él se comparten reviews de modelos recientes, recomendaciones de rutas emblemáticas y artículos para quienes buscan inspiración para su próxima aventura en dos ruedas.",
+    "media": [
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_motos_1.png" },
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_motos_2.png" },
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_motos_3.png" }
+    ],
+    "descripcionDetallada": "<h3>Un espacio para los amantes del motociclismo</h3><p>Es una plataforma que reúne contenido pensado para quienes viven el motociclismo como una pasión.</p><h4>Información actualizada y análisis técnico</h4><p>Su propósito es acercar a los usuarios información actualizada sobre los últimos modelos del mercado, con análisis detallados que permiten conocer las características técnicas y los puntos fuertes de cada motocicleta.</p><h4>Rutas recomendadas para viajar</h4><p>Además, ofrece una selección de rutas recomendadas para viajar en moto, desde travesías clásicas como la Ruta 66 hasta recorridos en paisajes naturales de América del Sur, como la Ruta de los Siete Lagos o la Carretera Austral.</p>",
+    "linkPrototipo": "https://obligatoriodw3.netlify.app"
+  },
+  {
+    "id": "iconos",
+    "titulo": "íconos",
+    "subtitulo": "Proyecto de diseño de imagen corporativa para “Íconos”, una agencia de diseño gráfico, web y fotografía con sede en Montevideo. La propuesta busca transmitir profesionalismo, innovación y creatividad a través del desarrollo de su logo, paleta cromática, tipografías, normas de uso y aplicaciones reales en piezas como tarjetas, firmas de mail, redes sociales.",
+    "media": [
+      { "tipo": "video", "src": "img/proyectos/iconos_animacion.mp4" },
+      { "tipo": "imagen", "src": "img/proyectos/iconos.png" },
+      { "tipo": "imagen", "src": "img/proyectos/iconos_1.png" },
+      { "tipo": "imagen", "src": "img/proyectos/iconos_2.png" }
+    ],
+    "descripcionDetallada": "<h3>Diseño de identidad visual para Íconos</h3><p>Este proyecto consiste en el diseño de la identidad visual de “Íconos”, una agencia de diseño gráfico, desarrollo web y fotografía aérea especializada en drones.</p><h4>Un equipo creativo y pet-friendly</h4><p>Ubicada en Pocitos, Montevideo, Íconos es un equipo creativo que combina innovación, profesionalismo y cercanía, con una cultura pet-friendly que refuerza su estilo moderno y humano.</p><h4>Propuesta de diseño integral</h4><p>La propuesta incluye el diseño de un isologotipo y sus variantes, acompañado del desarrollo de un slogan corporativo: “Diseño e Innovación”, que resume la esencia de la marca.</p><h4>Manual de marca</h4><p>El trabajo también abarca la definición de una paleta cromática, junto con la selección tipográfica. El manual de marca contempla las reglas de uso del logo en diferentes versiones, sus aplicaciones correctas e incorrectas, las áreas de protección y tamaños mínimos.</p>",
+    "linkPrototipo": "https://www.figma.com/proto/1wMCTr4XcXJAuWbOsE0FKH/Cindy-Pereyra-249787-Imagen-Corporativa-Web-2023?page-id=0%3A1&node-id=1-2&viewport=130%2C357%2C0.03&t=KrWHfPr2esdn5fYg-1&scaling=contain&content-scaling=fixed"
+  },
+  {
+    "id": "makeup",
+    "titulo": "Cindy Pereyra Makeup",
+    "subtitulo": "Es una tienda online de maquillaje, que ofrece un amplio catálogo de productos. Un espacio pensado para quienes buscan adquirir productos de calidad y descubrir nuevas técnicas de make up a través de una experiencia digital clara y atractiva.",
+    "media": [
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_makeup_1.png" },
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_makeup_2.png" },
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_makeup_3.png" }
+    ],
+    "descripcionDetallada": "<h3>Una tienda online pensada para el mundo del maquillaje</h3><p>Cada producto cuenta con información detallada y precios actualizados, lo que permite a las personas tomar decisiones de compra informadas y seguras.</p><h4>Diseño orientado a la experiencia de compra</h4><p>El diseño visual del sitio está pensado para ofrecer una experiencia clara y dinámica, destacando las promociones vigentes y facilitando el acceso al catálogo mediante filtros por categoría y precio.</p><h4>Más que una tienda, un espacio de referencia</h4><p>Este proyecto no solo promueve la venta de maquillaje, sino que también busca posicionarse como un punto de referencia en formación y tendencias, conectando a las personas con las últimas novedades del mundo beauty a través de un entorno amigable.</p>",
+    "linkPrototipo": "https://cp-maquillaje.netlify.app/"
+  },
+  {
+    "id": "veterinaria",
+    "titulo": "Veterinaria Porotino",
+    "subtitulo": "Porotino es un pet shop con atención veterinaria, que ofrece productos, servicios y atención personalizada para mascotas en Pocitos y Punta Carretas. A través de su plataforma digital, busca brindar una experiencia completa que permite comprar productos, agendar turnos veterinarios y acceder a servicios como peluquería y asesoramiento profesional, fortaleciendo la relación entre las personas y sus animales.",
+    "media": [
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_porotino_1.png" },
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_porotino_2.png" },
+      { "tipo": "imagen", "src": "img/proyectos/proyecto_porotino_3.png" }
+    ],
+    "descripcionDetallada": "<h3>Un espacio pensado para el bienestar animal</h3><p>Dirigido a un público que considera a sus mascotas como parte de la familia, Porotino se posiciona como un espacio que promueve el bienestar animal mediante una atención cercana y personalizada.</p><h4>Productos y servicios especializados</h4><p>La propuesta incluye la venta de productos nacionales e importados de alta calidad, desde alimentos balanceados y snacks hasta accesorios y productos naturales. Además, ofrece servicios veterinarios especializados, peluquería canina y felina, y atención a cargo de profesionales comprometidos con el seguimiento continuo de la salud de cada mascota.</p><h4>Una plataforma digital para una experiencia completa</h4><p>El proyecto también contempla el desarrollo de una plataforma digital que permite a los usuarios comprar online, reservar turnos para servicios veterinarios o de peluquería, y acceder a información útil sobre el cuidado animal.</p><h4>Accesibilidad y comodidad para los clientes</h4><p>Esta propuesta busca responder a las nuevas demandas de comodidad y accesibilidad, acercando Porotino a sus clientes en cualquier momento y desde cualquier dispositivo.</p>",
+    "linkPrototipo": "https://porotino.onrender.com/index.html"
+  },
+    {
+    "id": "nipro",
+    "titulo": "Nipro Medical Corp",
+    "subtitulo": "Desarrollo de material gráfico para Nipro Uruguay, incluyendo dos páginas publicitarias para el Farmanuario y un banner promocional para congresos y eventos médicos.",
+    "media": [
+      { "tipo": "imagen", "src": "img/proyectos/Nipro_1.png" },
+      { "tipo": "imagen", "src": "img/proyectos/Nipro_2.png" },
+      { "tipo": "imagen", "src": "img/proyectos/Nipro_3.png" }
+    ],
+    "descripcionDetallada": "<h3>Comunicación profesional para el sector salud</h3><p>El proyecto consistió en el diseño de piezas gráficas para Nipro Medical Corporation – Sucursal Uruguay, una empresa especializada en soluciones médicas.</p><h4>Páginas para el Farmanuario</h4><p>Se diseñaron dos páginas publicitarias para el Farmanuario, una publicación anual que reúne información relevante para profesionales de la salud. Las piezas presentan de forma clara y profesional los dispositivos de monitoreo y control de glucosa que ofrece la empresa, respetando la identidad visual de la marca y los lineamientos editoriales del medio.<p><h4>Banner promocional para eventos médicos</h4><p>También se diseñó un banner tipo roll-up pensado para su uso en congresos y eventos médicos, con el objetivo de mejorar la presencia de la marca en estos espacios. La pieza destaca los beneficios de sus dispositivos, con un diseño visualmente atractivo, de fácil lectura. Un diseño pensado para comunicar con claridad. Ambas piezas fueron desarrolladas priorizando la jerarquía de la información, la coherencia visual y la correcta representación de la marca, buscando transmitir confianza, profesionalismo y accesibilidad en el contexto de la comunicación médica.</p>",
+    "linkPrototipo": "https://www.behance.net/cindypereyra"
+  }
+]
+
+
+
+
+
+
+
+
