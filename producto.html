@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Portfolio | Diseñadora Web</title>
+  <!-- Favicon -->
+  <link rel="icon" href="img/logo_cp_r.svg" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body class="dark-mode-transition">
+  <!-- Header -->
+  <header class="shadow-sm">
+    <div class="container px-4 py-3">
+      <div class="d-flex justify-content-between align-items-center">
+        <!-- Logo -->
+        <a href="index.html#" class="logo-navbar">
+          <img src="img/logo_cp_r.svg" alt="Cindy Pereyra Logo">
+        </a>
+        <nav class="d-none d-md-flex gap-4">
+          <a class="text-decoration-none text-dark hover-menu" href="index.html#about">Sobre mí</a>
+          <a class="text-decoration-none text-dark hover-menu" href="index.html#proyectos">Proyectos</a>
+          <a class="text-decoration-none text-dark hover-menu" href="index.html#herramientas">Herramientas</a>
+          <a class="text-decoration-none text-dark hover-menu" href="index.html#contact">Contacto</a>
+        </nav>
+        <div class="d-flex align-items-center gap-3">
+          <button class="btn p-2 rounded-circle hover-bg" id="botonDarkMode">
+            <i class="fas fa-moon text-dark" id="darkModeIcon"></i>
+          </button>
+          <button class="d-md-none btn p-2 rounded-circle hover-bg" id="mobile-menu-button">
+            <i class="fas fa-bars text-dark"></i>
+          </button>
+        </div>
+      </div>
+      <div class="mt-3 pb-3 d-none" id="mobile-menu">
+        <a class="d-block py-2 text-decoration-none text-dark hover-menu" href="index.html#about">Sobre mí</a>
+        <a class="d-block py-2 text-decoration-none text-dark hover-menu" href="index.html#proyectos">Proyectos</a>
+        <a class="d-block py-2 text-decoration-none text-dark hover-menu"
+          href="index.html#herramientas">Herramientas</a>
+        <a class="d-block py-2 text-decoration-none text-dark hover-menu" href="index.html#contact">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenido dinámico del proyecto -->
+  <section class="section">
+    <div class="container px-4">
+      <h1 class="fw-bold mb-3">Título del proyecto</h1>
+      <p class="text-muted mb-4" id="subtitulo"></p>
+
+      <!-- Carousel -->
+      <div class="row align-items-center mb-5">
+        <div class="text-center mb-4">
+          <div id="carouselProyecto" class="carousel slide mx-auto custom-carousel-size">
+            <div class="carousel-inner" id="carouselInner">
+              <!-- Las imágenes se cargarán dinámicamente desde producto.js --> </div>
+            <!-- Botones Carousel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyecto" data-bs-slide="prev">
+              <i class="bi bi-chevron-left custom-carousel-icon"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProyecto" data-bs-slide="next">
+              <i class="bi bi-chevron-right custom-carousel-icon"></i>
+            </button>
+          </div>
+        </div>
+        <!-- Descripcion -->
+        <div>
+          <p class="text-muted mb-4" id="detalleDescripcion"></p>
+          <div class="text-center">
+            <a href="index.html#" id="botonPrototipo" class="btn btn-primary-gradient mt-2 px-4 py-2"
+              target="_blank">Ampliar</a>
+          </div>
+        </div>
+        <!-- iFrame si aplica -->
+        <div id="iframePrototipoContainer" class="text-center mt-4"></div>
+
+        <div class="text-center mt-5">
+          <a href="index.html#proyectos" class="btn btn-outline-gradient px-4 py-2">← Volver</a>
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container px-4">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0 d-none d-md-block">
+          <!-- Logo -->
+          <a href="#" class="d-flex align-items-center mb-2">
+            <img src="img/logo_cp_r.svg" alt="Cindy Pereyra Logo" height="40">
+          </a>
+          <p class="mt-2 mb-0"><span> Concepto Preciso </span>, by Cindy Pereyra</p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-md-end gap-4 d-none d-md-flex">
+          <a class="text-decoration-none text-white hover-menu" href="#">Inicio</a>
+          <a class="text-decoration-none text-white hover-menu" href="#about">Sobre mí</a>
+          <a class="text-decoration-none text-white hover-menu" href="#proyectos">Proyectos</a>
+          <a class="text-decoration-none text-white hover-menu" href="#herramientas">Herramientas</a>
+          <a class="text-decoration-none text-white hover-menu" href="#contact">Contacto</a>
+        </div>
+        <div class="border-top border-secondary mt-4 pt-4 text-center">
+          <p class="mb-0">© 2025 Cindy Pereyra - Diseñadora Web.</p>
+        </div>
+      </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/proyectos.js"></script>
+  <script src="js/producto.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
