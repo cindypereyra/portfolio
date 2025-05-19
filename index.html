@@ -329,23 +329,31 @@
             <h2 class="text-center fs-1 fw-bold mb-3">Contácta<span class="text-primary-custom">me</span></h2>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-6">
-                    <form class="space-y-4" netlify>
+                    <form name="contacto" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contacto" />
+
                         <div class="mb-3">
                             <label class="form-label" for="name">Nombre</label>
-                            <input class="form-control" id="name" type="text" />
+                            <input class="form-control" id="name" name="name" type="text" required />
                         </div>
+
                         <div class="mb-3">
                             <label class="form-label" for="email">Email</label>
-                            <input class="form-control" id="email" type="email" />
+                            <input class="form-control" id="email" name="email" type="email" required />
                         </div>
+
                         <div class="mb-3">
-                            <label class="form-label" for="subject">Asunto</label>
-                            <input class="form-control" id="subject" type="text" />
+                            <label class="form-label" for="subject">Asunto (opcional)</label>
+                            <input class="form-control" id="subject" name="subject" type="text" />
                         </div>
+
                         <div class="mb-3">
                             <label class="form-label" for="message">Mensaje</label>
-                            <textarea class="form-control" id="message" rows="5"></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="5" maxlength="5000"
+                                required></textarea>
+                            <small class="form-text text-muted">Máximo 5000 caracteres.</small>
                         </div>
+
                         <button class="btn btn-primary-gradient w-100 py-2" type="submit">Enviar Mensaje</button>
                     </form>
                 </div>
