@@ -40,6 +40,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family);
 }
 
+.btn {
+  white-space: nowrap;
+  flex-shrink: 0; 
+}
+
 /* Dark mode styles */
 body.dark-mode {
     background-color: #1a1a1a;
@@ -127,10 +132,6 @@ body.dark-mode .border {
     overflow: hidden;
 }
 
-.h-100 {
-    min-height: 27vh;
-    /* para tamaño mínimo de cards */
-}
 
 
 /* Header styles */
@@ -250,6 +251,11 @@ body.dark-mode header {
 
 
 /* mis proyectos */
+
+.card-proyecto .btn {
+  margin-top: 0 !important;
+}
+
 .card-proyecto img {
     filter: grayscale(100%);
     transition: filter 0.5s ease;
