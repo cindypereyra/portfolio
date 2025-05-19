@@ -9,7 +9,15 @@
     --text-main: #1a1a1a;
     --gradient-start: #dd5fc8;
     --gradient-end: #fc008b;
+
+    /* Tipografías */
+    --font-family: 'Inter', sans-serif;
 }
+
+.lead, h3, h4 {
+    font-size: 1.25rem;
+}
+
 
 body.dark-mode {
     --bg-hero: #0d1117;
@@ -25,6 +33,11 @@ body.dark-mode {
 /* Estilos personalizados */
 body {
     min-height: 100vh;
+    font-family: var(--font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family);
 }
 
 /* Dark mode styles */
@@ -111,11 +124,12 @@ body.dark-mode .border {
     display: flex;
     align-items: end;
     justify-content: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
-.h-100{
-    min-height: 27vh; /* para tamaño mínimo de cards */
+.h-100 {
+    min-height: 27vh;
+    /* para tamaño mínimo de cards */
 }
 
 
@@ -128,7 +142,7 @@ header {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-header img{
+header img {
     height: 5vh;
 }
 
@@ -152,7 +166,7 @@ body.dark-mode header {
 }
 
 .intro {
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
     color: var(--text-main);
 }
 
@@ -195,7 +209,7 @@ body.dark-mode header {
     border: none;
     color: white;
     transition: 0.3s;
-        opacity: 0.8; 
+    opacity: 0.8;
 }
 
 .btn-primary-gradient:hover {
@@ -235,7 +249,7 @@ body.dark-mode header {
 }
 
 
-/* mis proyectos */ 
+/* mis proyectos */
 .card-proyecto img {
     filter: grayscale(100%);
     transition: filter 0.5s ease;
@@ -404,9 +418,10 @@ body.dark-mode .custom-carousel-size {
 }
 
 .custom-carousel-icon {
-  color: var(--gradient-start);
-  font-size: 2rem; 
+    color: var(--gradient-start);
+    font-size: 2rem;
 }
+
 @media (max-width: 767px) {
     .custom-carousel-size .carousel-inner img {
         object-fit: cover;
@@ -419,7 +434,7 @@ body.dark-mode .custom-carousel-size {
     .custom-carousel-size video,
     .custom-carousel-size img {
         height: auto;
-        max-height: 80vh; 
+        max-height: 80vh;
     }
 
     .hero-img {
